@@ -10,14 +10,16 @@ const s2 = +prompt("2. sayiyi giriniz");
 let sonuc=0;
 if (islem=="+") {
     sonuc=s1+s2;  
-    console.log("Toplama sonucu: " + sonuc);  // Toplama sonucu: 16
+    // console.log("Toplama sonucu: " + sonuc);  // Toplama sonucu: 16
 } else if (islem=="-") {
     sonuc=s1-s2;
-    console.log("Cikartma sonucu: " + sonuc);  // Cikartma sonucu: 8
+    // console.log("Cikartma sonucu: " + sonuc);  // Cikartma sonucu: 8
 }else if (islem=="*") {
     sonuc=s1*s2;
-    console.log("Carpma sonucu: " + sonuc);  // Carpma sonucu: 48
+    // console.log("Carpma sonucu: " + sonuc);  // Carpma sonucu: 48
 } else if (islem=="/") {
     sonuc =s1/s2;
-    console.log("Bolme sonucu: " + sonuc);  // Bolme sonucu: 3
+    // console.log("Bolme sonucu: " + sonuc);  // Bolme sonucu: 3
 }
+    console.log(sonuc);
+    console.log(`${s1} ${islem} ${s2} = ${sonuc}`);
